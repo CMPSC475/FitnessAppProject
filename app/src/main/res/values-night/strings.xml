@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nutrition">Button</string>
+    <string name="ARMS">CheckBox</string>
+    <string name="OTHER">CheckBox</string>
+    <string name="todo">TextView</string>
+    <string name="cruches">CheckBox</string>
+    <string name="airbikecruches">CheckBox</string>
+    <string name="russiantwists">CheckBox</string>
+    <string name="beginner">Button</string>
+    <string name="keto">RadioButton</string>
+    <string name="vegan">RadioButton</string>
+    <string name="paleo">RadioButton</string>
+    <string name="textview">TextView</string>
+    <string name="food1">Name</string>
+    <string name="name">Name</string>
+    <string name="food2">Name</string>
+    <string name="total">TextView</string>
+    <string name="picks">TextView</string>
+    <string name="workoutpicks">TextView</string>
+    <string name="nameprofile">TextView</string>
+    <string name="activitesoverview">TextView</string>
+    <string name="cals">TextView</string>
+    <string name="calsburned">TextView</string>
+    <string name="overallgoals">TextView</string>
+</resources>
