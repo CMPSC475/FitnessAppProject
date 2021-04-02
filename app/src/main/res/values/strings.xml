@@ -36,8 +36,12 @@
     <string name="workoutpicks">Pick Workout(s): </string>
     <string name="nameprofile">John Doe</string>
     <string name="activitesoverview">Activities Overview</string>
-    <string name="cals">Calories consumed</string>
+    <string name="cals">Set Goals</string>
     <string name="calsburned">Calories Burned</string>
     <string name="overallgoals">Overall goals met!</string>
+    <string name="Height">Height: </string>
+    <string name="StartedWeight">Started Weight: </string>
+    <string name="CurrentWeight">Current Weight: </string>
+
 
 </resources>
