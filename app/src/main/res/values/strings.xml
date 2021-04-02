@@ -42,6 +42,10 @@
     <string name="Height">Height: </string>
     <string name="StartedWeight">Started Weight: </string>
     <string name="CurrentWeight">Current Weight: </string>
+    <string name="totcalsN">Total Calories Eaten: </string>
+    <string name="calsleftN">Total Calories Left: </string>
+    <string name="burned">Calories Burned:</string>
+    <string name="calsburnedtd">Burned Goal:</string>
 
 
 </resources>
