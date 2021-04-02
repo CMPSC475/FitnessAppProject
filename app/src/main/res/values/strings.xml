@@ -10,9 +10,9 @@
     <string name="invalid_username">Not a valid username</string>
     <string name="invalid_password">Password must be >5 characters</string>
     <string name="login_failed">"Login failed"</string>
-    <string name="profile">PROFILE</string>
-    <string name="nutrition">WORKOUT</string>
-    <string name="workout">NUTRITION</string>
+    <string name="profile">EXERCISE</string>
+    <string name="nutrition">NUTRITION</string>
+    <string name="workout">PEDOMETER</string>
     <string name="ARMS">ARMS</string>
     <string name="ABS">ABS</string>
     <string name="LEGS">LEGS</string>
