@@ -46,6 +46,7 @@
     <string name="calsleftN">Total Calories Left: </string>
     <string name="burned">Calories Burned:</string>
     <string name="calsburnedtd">Burned Goal:</string>
+    <string name="submitfood">Submit Foood</string>
 
 
 </resources>
