@@ -14,37 +14,29 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Button;
 
-public class MainMenuActivity extends AppCompatActivity {
+public class LoginActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.main_menu);
+        setContentView(R.layout.activity_login);
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        Button exerciseButton   = findViewById(R.id.exerciseButton);
-        Button nutritionButton  = findViewById(R.id.nutritionButton);
-        Button pedometerButton  = findViewById(R.id.pedometerButton);
+        Button loginButton   = findViewById(R.id.login);
+        Button registerButton  = findViewById(R.id.register);
 
-        exerciseButton.setOnClickListener(new View.OnClickListener() {
+        loginButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
             }
         });
-        nutritionButton.setOnClickListener(new View.OnClickListener() {
+        registerButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
             }
         });
-        pedometerButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-
-            }
-        });
-
 
     }
 
