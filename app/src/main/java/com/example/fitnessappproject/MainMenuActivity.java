@@ -1,9 +1,7 @@
 package com.example.fitnessappproject;
 
+import android.content.Intent;
 import android.os.Bundle;
-
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import com.google.android.material.snackbar.Snackbar;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
@@ -29,19 +27,25 @@ public class MainMenuActivity extends AppCompatActivity {
         exerciseButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                Intent myIntent = new Intent(MainMenuActivity.this, ExerciseActivity.class);
+                //myIntent.putExtra("key", value); //Optional parameters
+                MainMenuActivity.this.startActivity(myIntent);
             }
         });
         nutritionButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                Intent myIntent = new Intent(MainMenuActivity.this, NutritionActivity.class);
+                //myIntent.putExtra("key", value); //Optional parameters
+                MainMenuActivity.this.startActivity(myIntent);
             }
         });
         pedometerButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                Intent myIntent = new Intent(MainMenuActivity.this, PedometerActivity.class);
+                //myIntent.putExtra("key", value); //Optional parameters
+                MainMenuActivity.this.startActivity(myIntent);
             }
         });
 
