@@ -1,5 +1,6 @@
 package com.example.fitnessappproject;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
@@ -28,13 +29,20 @@ public class LoginActivity extends AppCompatActivity {
         loginButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                boolean passedCheck = 0//checkinput();
+                if(passedCheck){
+                    Intent myIntent = new Intent(LoginActivity.this, MainMenuActivity.class);
+                    //myIntent.putExtra("key", value); //Optional parameters
+                    LoginActivity.this.startActivity(myIntent);
+                }
             }
         });
         registerButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                Intent myIntent = new Intent(LoginActivity.this, RegistrationActivity.class);
+                //myIntent.putExtra("key", value); //Optional parameters
+                RegistrationActivity.this.startActivity(myIntent);
             }
         });
 
