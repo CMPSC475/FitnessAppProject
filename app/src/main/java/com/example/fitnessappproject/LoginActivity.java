@@ -3,9 +3,6 @@ package com.example.fitnessappproject;
 import android.content.Intent;
 import android.os.Bundle;
 
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import com.google.android.material.snackbar.Snackbar;
-
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
@@ -20,7 +17,7 @@ public class LoginActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login);
+        setContentView(R.layout.activity_main);
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         Button loginButton   = findViewById(R.id.login);
@@ -29,7 +26,7 @@ public class LoginActivity extends AppCompatActivity {
         loginButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                boolean passedCheck = 0//checkinput();
+                boolean passedCheck = true;
                 if(passedCheck){
                     Intent myIntent = new Intent(LoginActivity.this, MainMenuActivity.class);
                     //myIntent.putExtra("key", value); //Optional parameters
@@ -37,14 +34,16 @@ public class LoginActivity extends AppCompatActivity {
                 }
             }
         });
-        registerButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
+        //registerButton.setOnClickListener(new View.OnClickListener() {
+            //@Override
+           /* public void onClick(View view) {
                 Intent myIntent = new Intent(LoginActivity.this, RegistrationActivity.class);
                 //myIntent.putExtra("key", value); //Optional parameters
                 RegistrationActivity.this.startActivity(myIntent);
             }
-        });
+
+            */
+        //});
 
     }
 
